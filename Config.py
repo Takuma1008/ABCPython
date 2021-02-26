@@ -87,7 +87,9 @@ class Config:
                         print(i)
                     sys.exit()
             #####SETTINGS ARGUMENTS######
-
+    
+    # 入力 : 1次元 list or ndarray
+    # 戻り値 : 1次元 tuple (スカラー) 
     def user_defined_function(individual):
         return (individual[0] - individual[1]),
 
