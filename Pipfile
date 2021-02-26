@@ -12,3 +12,6 @@ configparser = "*"
 
 [requires]
 python_version = "2.7"
+
+[scripts]
+start = "python ABCAlgorithm.py"
